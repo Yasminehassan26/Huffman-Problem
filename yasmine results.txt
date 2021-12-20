@@ -1,0 +1,89 @@
+Yasmine Tests
+---------------
+
+
+=file 1: gbbct10.seq
+-------------------
+= compression:
+-------------
+
+- at  n : 1, Compressing Time(s): 53 , Time(mins): 0.88 , Compression Ratio: 0.51
+
+- at  n : 2, Compressing Time(s): 38 , Time(mins): 0.63 , Compression Ratio: 0.42
+
+- at  n : 3, Compressing Time(s): 35 , Time(mins): 0.58 , Compression Ratio: 0.38
+
+- at  n : 4, Compressing Time(s): 36 , Time(mins): 0.60 , Compression Ratio: 0.35
+
+-  at  n : 5, Compressing Time(s): 42 , Time(mins): 0.70 , Compression Ratio: 0.37
+
+- at  n : 6, Compressing Time(s): 58 , Time(mins): 0.97 , Compression Ratio: 0.45
+
+- at  n : 7, Compressing Time(s): 69 , Time(mins): 1.15 , Compression Ratio: 0.48
+
+-  at  n : 8, Compressing Time(s): 62 , Time(mins): 1.03 , Compression Ratio: 0.48 
+
+-  at  n : 9, Compressing Time(s): 67 , Time(mins): 1.12 , Compression Ratio: 0.52
+
+- at n : 10 , java heapspace
+
+= decompression:
+----------------
+
+- at n : 1 , Decompressing Time(s): 106 ,  Time(mins): 1.77 - checked
+-  at n : 2 , Decompressing Time(s): 88 ,  Time(mins): 1.47 - checked
+-  at n : 3 , Decompressing Time(s): 89 ,  Time(mins): 1.48 - checked
+-  at n : 4 , Decompressing Time(s): 81 ,  Time(mins): 1.35 - checked
+-   at n : 5 , Decompressing Time(s): 80 ,  Time(mins): 1.33 - checked
+-  at n : 6 , Decompressing Time(s): 80 ,  Time(mins): 1.33 - checked
+-  at n : 7 , Decompressing Time(s): 75 ,  Time(mins): 1.25 - checked
+-  at n : 8 , Decompressing Time(s): 82 ,  Time(mins): 1.37 - checked
+-  at n : 9 , Decompressing Time(s): 80 ,  Time(mins): 1.33 - checked
+
+
+
+=file 2: lecture6.pdf
+-------------------
+= compression:
+-------------
+
+- at  n : 1, Compressing Time(s): 0.302 , Time(mins): 0.01 , Compression Ratio: 0.83
+
+
+- at  n : 2, Compressing Time(s): 0.536 , Time(mins): 0.01 , Compression Ratio: 0.89
+
+- at  n : 3, Compressing Time(s): 0.396 , Time(mins): 0.01 , Compression Ratio: 1.09
+
+-at  n : 4, Compressing Time(s): 0.363 , Time(mins): 0.01 , Compression Ratio: 0.98
+
+- at  n : 5, Compressing Time(s): 0.299 , Time(mins): 0.00 , Compression Ratio: 0.93
+
+- at  n : 6, Compressing Time(s): 0.276 , Time(mins): 0.00 , Compression Ratio: 0.89
+
+- at  n : 7, Compressing Time(s): 0.251 , Time(mins): 0.00 , Compression Ratio: 0.89
+
+-  at  n : 8, Compressing Time(s): 0.246 , Time(mins): 0.00 , Compression Ratio: 0.89
+
+- at  n : 9, Compressing Time(s): 0.226 , Time(mins): 0.00 , Compression Ratio: 0.90
+
+-  at  n : 10, Compressing Time(s): 0.225 , Time(mins): 0.00 , Compression Ratio: 0.90
+
+
+= decompression:
+----------------
+
+-  at n : 1 , Decompressing Time(s): 1.004 ,  Time(mins): 0.02
+
+-  at n : 2 , Decompressing Time(s): 0.991 ,  Time(mins): 0.02
+
+-  at n : 3 , Decompressing Time(s): 0.957 ,  Time(mins): 0.02
+
+-  at n : 4 , Decompressing Time(s): 0.886 ,  Time(mins): 0.01
+
+-  at n : 5 , Decompressing Time(s): 0.821 ,  Time(mins): 0.01
+
+-  at n : 6 , Decompressing Time(s): 0.8 ,  Time(mins): 0.01
+
+-  at n : 7 , Decompressing Time(s): 0.791 ,  Time(mins): 0.01
+
+nfs l erayat bzbt fel ba2e
