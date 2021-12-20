@@ -21,7 +21,8 @@ public class MainClass {
 
     String decision = args[0];
     // to handle time
-    long start, end, compressTime, decompressTime;
+    long start, end;
+    double compressTime, decompressTime;
     start = System.currentTimeMillis();
     if (decision.equals("c")) {
 
@@ -38,7 +39,7 @@ public class MainClass {
       compress.beginCompressing(filePath, fileName, n);
 
       end = System.currentTimeMillis();
-      compressTime = (end - start) / 1000;
+      compressTime = ((double)(end - start)) / 1000;
 
       try {
         compressRatio = (double) Files.size(Paths.get(fileName)) / Files.size(Paths.get(filePath));
@@ -61,7 +62,7 @@ public class MainClass {
       decompress.beginDecompressing(filePath, outPutFileName);
       end = System.currentTimeMillis();
 
-      decompressTime = (end - start) / 1000;
+      decompressTime = ((double)(end - start) )/ 1000;
       System.out.println("\n at n : " + decompress.getN() + " , Decompressing Time(s): "
           + decompressTime + " ,  Time(mins): " + df.format((decompressTime) / 60.0));
 
