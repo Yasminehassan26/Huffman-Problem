@@ -15,7 +15,7 @@ import java.nio.file.FileSystems;
 
 
 public class MainClass {
-  private static final DecimalFormat df = new DecimalFormat("0.00");
+  private static final DecimalFormat df = new DecimalFormat("0.000");
 
   public static void main(String[] args) throws IOException {
 
