@@ -27,7 +27,7 @@ public class MainClass {
     if (decision.equals("c")) {
 
       String filePath = args[1];
-      String inputN = args[2];
+      String inputN = "2";
 
       // we got the n
       int n = Integer.parseInt(inputN);
@@ -80,10 +80,6 @@ public class MainClass {
 
     int indexOfLast = filePath.lastIndexOf(sep) + 1;
     buildPath.append(filePath.substring(0, indexOfLast));
-
-    buildPath.append("18012078.");
-    buildPath.append(inputN);
-    buildPath.append(".");
     buildPath.append(filePath.substring(indexOfLast));
     buildPath.append(".hc");
     return buildPath.toString();

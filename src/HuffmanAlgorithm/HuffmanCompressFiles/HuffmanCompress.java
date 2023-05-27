@@ -69,7 +69,6 @@ public class HuffmanCompress {
         } else {
             encodeNodes(root, new StringBuilder());
         }
-        System.out.println("finished creating codewords");
 
         compressFunction();
 
@@ -78,13 +77,11 @@ public class HuffmanCompress {
     public void compressFunction() {
         compressDictionary();
 
-        System.out.println("finished writing the header of file");
         try {
             compressInputFile();
         } catch (IOException e1) {
             e1.printStackTrace();
         }
-        System.out.println("finished compressing the body of file");
 
         try {
             this.writeOutputFile.close();

@@ -58,7 +58,6 @@ public class DecompressFile {
                 if (readByte.equals(","))
                     break;
             }
-            System.out.println("got the length of header");
      
             String tempString = buildTempHeader.toString();
            long size = Long.parseLong(tempString.substring(0, tempString.length() - 1));
@@ -69,7 +68,6 @@ public class DecompressFile {
               String readByte = new String(newtempByteArray, Charset.forName("ISO-8859-1"));
               buildHeader.append(readByte);
           
-            System.out.println("finished reading the header");
 
             dictionnaryDecompress.constructDictionnary(buildHeader);
             decompress.setSettings(dictionnaryDecompress.getRoot(),this.outputFile,usedBytes,dictionnaryDecompress.getOnlyRoot());

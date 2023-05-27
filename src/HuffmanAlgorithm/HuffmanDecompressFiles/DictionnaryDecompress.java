@@ -51,7 +51,6 @@ public class DictionnaryDecompress {
 
         } 
         else {
-            System.out.println("constructing the tree....");
             constructTree(root, header);
         }
 
